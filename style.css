@@ -34,3 +34,44 @@ li a {
     color: #e5e7eb;
     text-decoration: none;
 }
+
+img {
+    height: 200px;
+}
+
+.hero {
+   background-color:  #1f2937; 
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:  #1f2937;
+    height: 500px;
+}
+
+.container div {
+    max-width: 500px;   
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #3882f6;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
