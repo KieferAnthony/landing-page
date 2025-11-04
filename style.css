@@ -7,3 +7,17 @@
 body {
     font-family: 'Roboto', Arial, sans-serif;
 }
+
+.header .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin-left: 10px;
+}
