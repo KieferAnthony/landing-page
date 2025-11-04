@@ -11,13 +11,24 @@ body {
 .header .container {
     display: flex;
     justify-content: space-around;
+    background-color: #1f2937;
+    align-items: center;
+     color: white;
+     height: 50px;
 }
 
-ul {
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-links {
     display: flex;
     list-style-type: none;
 }
 
-li {
+li a {
     margin-left: 10px;
+    color: white;
+    text-decoration: none;
 }
