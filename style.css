@@ -56,13 +56,13 @@ img {
     max-width: 500px;   
 }
 
-h1 {
+.hero-text h1 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
 }
 
-p {
+.hero-text p {
     font-size: 18px;
     color: #e5e7eb;
     margin-bottom: 10px;
@@ -78,6 +78,26 @@ button {
     cursor: pointer;
 }
 
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 50px;
+}
+
 .information .container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.image-info p {
+    font-size: 18px;
+    color: #1f2937
+}
+
+.image-info {
+    margin-left: 50px;
 }
