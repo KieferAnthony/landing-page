@@ -101,3 +101,8 @@ button {
 .image-info {
     margin-left: 50px;
 }
+
+.quote .container {
+    background-color: #e5e7eb;
+    height: 300px;
+}
