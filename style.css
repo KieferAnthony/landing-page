@@ -126,7 +126,7 @@ button {
     color: #1f2937;
 }
 
-.container p {
+.quote-author {
     align-self: flex-end;
     font-size: 18px;
     font-weight: 700;
@@ -173,7 +173,14 @@ button {
 }
 
 .footer {
-    height: 50px;
+    height: 100px;
     background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
